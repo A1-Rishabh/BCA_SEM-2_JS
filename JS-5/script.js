@@ -1,0 +1,121 @@
+// string methods
+// let str = "JavaScript is fun!";
+// let sliced = str.slice(0, 10);
+// console.log(sliced);
+
+// let str = "JavaScript is fun!";
+// let sub = str.substring(-2, 2);
+// console.log(sub); //negative index supports this but not slice
+
+// const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+// const indexOfFirst = paragraph.indexOf("dog");
+// console.log(indexOfFirst);
+
+// let str = "OpenAI is innovative!";
+// let sub = str.substring(8, 2); // sub is "is"
+
+
+// let firstName = "John";
+// let lastName = "Doe";
+// let fullName = firstName.concat(" ", lastName);
+
+// console.log(fullName);
+
+// string literls
+
+// let fullName = `${firstName} : this is my firstname, ${lastName} : this is my lastname`
+
+// console.log(fullName)
+
+// let uni = 'K.R Mangalam';
+// let prog = 'BCA AI/DS';
+
+// console.log('My name is Rohit and im pursuing'+' '+ prog + ' from ' + uni);
+
+// let details = `My name is Rohit and im pursuing ${prog} form ${uni}`;
+
+// console.log(details);
+
+
+
+// function palindrome() {
+//     let arr = [1, 2, 3, 2, 1];
+//     let temp = [];
+//     let original = [...arr];
+
+    // for(let i = 0; i <= arr.length-1; i++) {
+    //     original.push(arr[i]);
+    // }
+    // console.log(original);
+
+//     while(arr.length > 0) {
+//         temp.push(arr.pop());
+//     }
+
+//     for(let i = 0; i <= original.length-1; i++) {
+//         if(original[i] === temp[i]) {
+//             return "palindrome";
+//         }
+//         else {
+//             return "not a palindrome";
+//         }
+//     }
+// }
+// console.log(palindrome());
+
+// let arr = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// let new_array = [...arr, ...arr2];
+
+// console.log(new_array);
+
+
+// let sentence = "   This is a sentence with spaces.   ";
+// let trimmed = sentence.trim(); 
+
+// let sentence = "I,am,a,comma,separated,sentence";
+// let words = sentence.split(","); 
+
+// retrive a string from a given string :
+
+// var str = 'The quick brown fox jumps over the lazy dog';
+// var result = '';
+
+// var startIndex = str.indexOf('fox');
+
+// console.log(startIndex);
+
+// if(startIndex !== -1) {
+//     var endIndex = startIndex + 3;
+
+//     for(var i = startIndex; i <= endIndex-1; i++) {
+//         result += str[i];
+//     }
+// }
+// console.log(result);
+
+
+// slice(start, end)
+
+// let str = 'JavaScript is Fun!';
+// let sliced = str.slice(-4, -1);  //or(0, 10)
+
+// console.log(sliced);
+
+
+// substring(start, end)
+
+// let str = 'My name is Rishabh, and i am from Grugram Haryana';
+
+// let subString = str.substring(0, 7);
+
+// console.log(subString);
+
+
+// index of
+
+// let paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
+// let indexOfFirst = paragraph.indexOf('dog');
+
+// console.log(indexOfFirst);
