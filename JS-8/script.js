@@ -26,5 +26,5 @@ const subheading = document.getElementsByClassName('sub-heading');
 console.log(subheading);
 for(let i=0; i<subheading.length;i++){
     subheading[i].style.color = 'green';
-    subheading[i].style.alignItems = 'center';
+    subheading[i].style.textAlign = 'center';
 }
