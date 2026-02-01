@@ -21,3 +21,9 @@ box.animate(
 const boady = document.body;
 boady.style.margin='0';
 boady.style.backgroundColor = 'black';
+
+const heading = document.getElementById('heading');
+heading.style.color = 'white';
+heading.style.textAlign = 'center';
+heading.style.fontFamily = 'Arial, sans-serif';
+heading.textContent = 'Rotating Box Animation';
