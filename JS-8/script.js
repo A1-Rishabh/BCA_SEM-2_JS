@@ -28,3 +28,10 @@ for(let i=0; i<subheading.length;i++){
     subheading[i].style.color = 'green';
     subheading[i].style.textAlign = 'center';
 }
+const heading2=document.getElementsByTagName("h2");
+console.log(heading2);
+for(let i=0; i<heading2.length;i++){
+heading2[i].style.backgroundColor="magenta";
+heading2[i].style.textAlign="center";
+}
+

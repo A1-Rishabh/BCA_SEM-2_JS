@@ -11,7 +11,7 @@ box.animate(
     [
         {transform: 'rotate(0deg)'},
         {transform: 'rotate(360deg)'}
-    ],  
+    ],
     {
         duration: 3000,
         iterations: Infinity
