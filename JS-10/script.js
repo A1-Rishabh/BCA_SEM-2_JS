@@ -15,7 +15,7 @@ const contain=document.getElementById("container");
 contain.appendChild(para);
 console.log(contain.innerHTML);
 
-//Modifying existing element
-const subhead=document.getElementById("container").querySelector("p");
-contain.removeChild(subhead);
+//remove the element
+const removePara=document.getElementById("remove");
+contain.removeChild(removePara);
 console.log(contain.innerHTML);
