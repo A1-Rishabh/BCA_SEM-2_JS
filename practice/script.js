@@ -28,12 +28,12 @@ heading.style.textAlign = 'center';
 heading.style.fontFamily = 'Arial, sans-serif';
 heading.textContent = 'Rotating Box Animation';
 
-const button = document.getElementById('bttn');
-button.style.display = 'block';
-button.style.margin = '20px auto';
-button.style.padding = '10px 20px';
-button.style.fontSize = '16px';
-button.style.cursor = 'pointer';
+// const button = document.getElementById('bttn');
+// button.style.display = 'block';
+// button.style.margin = '20px auto';
+// button.style.padding = '10px 20px';
+// button.style.fontSize = '16px';
+// button.style.cursor = 'pointer';
 // button.addEventListener('click', () => {
 //     alert('Button clicked!');
 // });
