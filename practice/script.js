@@ -49,10 +49,12 @@ animateBox = () => {
     }
     
 ); 
+
 document.getElementById("bttn").textContent = "Animation started!";
 document.getElementById('box').style.backgroundColor = 'Red';
 setTimeout(() => {
     document.getElementById("bttn").textContent = "Click Me";
     document.getElementById('box').style.backgroundColor = 'lightblue';
-}, 3000);
+}, 4700);
+alert('Animation started!');
 }
