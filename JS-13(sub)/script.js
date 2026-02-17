@@ -3,12 +3,12 @@
 // there are several ways to achieve asynchronous programming in javascript, such as callbacks, promises and async/await.
 
 //ex of synchronous code 
-// console.log("Hello");
-// function longRunningTask() {
-//     console.log("Starting long running task...");
-// }
-// longRunningTask();
-// console.log("This will be printed after the long running task is finished.");
+console.log("Hello");
+function longRunningTask() {
+    console.log("Starting long running task...");
+}
+longRunningTask();
+console.log("This will be printed after the long running task is finished.");
 
 //ex of asynchronous code set timeout
 console.log("Hello");
@@ -17,5 +17,5 @@ function longRunningTask() {
         console.log("Long running task finished.");
     }, 2000); // this will execute the callback function after 2 seconds
 }
-longRunningTask();
+console.log(longRunningTask());
 console.log("This will be printed immediately after the long running task is started.");
